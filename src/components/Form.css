@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5vh;
+  width: 50%;
+  height: 30vh;
+  color: rgb(127, 143, 222);
+  border: 3px solid;
+  border-color: rgb(127, 143, 222);
+  text-align: center;
+}
+
+input {
+  width: 40vh;
+  height: 5vh;
+  display: flex;
+  margin: auto;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: rgb(127, 143, 222);
+}
+
+label {
+  display: flex;
+  margin: 20px;
+}
+
+button {
+  width: 41vh;
+  height: 6vh;
+  display: flex;
+  margin: auto;
+  border-radius: 8px;
+  font-size: medium;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  color: rgb(127, 143, 222);
+  background-color: rgb(187, 187, 224);
+  border: 2px solid;
+  border-color: rgb(127, 143, 222);
+}

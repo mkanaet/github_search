@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5vh;
+  width: 70%;
+  height: fit-content;
+  color: rgb(127, 143, 222);
+  border: 3px solid;
+  border-color: rgb(127, 143, 222);
+  text-align: center;
+}
+
+img {
+  width: 8vh;
+}
+
+.header_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5vh;
+}
+
+#name {
+  font-size: xx-large;
+  margin-left: 5vh;
+}
+
+p {
+  display: flex;
+  justify-content: left;
+  margin-left: 5vh;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-content: flex-end;
+  text-align: left;
+}
